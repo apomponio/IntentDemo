@@ -35,11 +35,12 @@ public class MainActivity extends AppCompatActivity {
                                               Intent intent = new Intent(MainActivity.this, Main2Activity.class);
                                               intent.putExtra(AGE_MSG_KEY, "Item is: "+ myItems[i]);
                                               startActivity(intent);
+
                                           }
                                       });
 
 
-                editText1 = (EditText) findViewById(R.id.edttxt_ma1);
+        editText1 = (EditText) findViewById(R.id.edttxt_ma1);
         btn1=(Button)findViewById(R.id.btn1_ma1);
         btn1.setOnClickListener(new Mylstnr());
     }

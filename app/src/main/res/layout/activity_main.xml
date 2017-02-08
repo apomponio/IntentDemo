@@ -9,6 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
+
     tools:context="com.example.alex.intentdemo.MainActivity">
 
     <TextView
@@ -18,10 +19,11 @@
 
 
     <EditText
+        android:id="@+id/edttxt_ma1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Age"
-        android:id="@+id/edttxt_ma1"/>
+        />
 
     <Button
         android:id="@+id/btn1_ma1"
@@ -33,8 +35,9 @@
     <ListView
         android:id="@+id/ls_view1_ma1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
+        android:layout_height="wrap_content"
+        android:listSelector="@color/colorPrimary"
+        >
     </ListView>
 
 </LinearLayout>
